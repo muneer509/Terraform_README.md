@@ -24,3 +24,14 @@ You cannot use count inside locals because locals are evaluated before resources
 
 It's how Terraform keeps track of what resources it created, their current settings, and metadata like IDs, attributes, and dependencies.
 
+What Does the State File Contain?
+All deployed resource information (IDs, names, IPs, etc.)
+
+Dependencies between resources
+
+Output values
+
+Module structure
+
+Metadata for performance optimization
+
