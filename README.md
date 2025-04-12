@@ -35,3 +35,17 @@ Module structure
 
 Metadata for performance optimization
 
+**Remot State**:
+What Is Remote State in Terraform?
+By default, Terraform stores its state locally in a file called terraform.tfstate.
+
+Remote state simply means storing that state file in a remote location, like AWS S3, Terraform Cloud, or Azure Blob Storage.
+
+This enables multiple users and systems to share and access the same Terraform state safely, with features like:
+Collaboration (shared state)
+State locking
+Versioning
+Backup
+
+
+
