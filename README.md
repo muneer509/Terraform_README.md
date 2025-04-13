@@ -55,6 +55,9 @@ each.key — the key in the map or the item in a set.
 
 each.value — the value associated with the key (in a map), or the item itself (in a set).
 
+**Dynamic blocks** 
+In Terraform, a dynamic block is used to dynamically generate nested blocks within a resource, based on a variable or other input data. This is especially helpful when you don’t know how many nested blocks you need ahead of time or want to reduce repetition in your configuration.
+
 
 
 
