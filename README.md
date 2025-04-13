@@ -47,5 +47,7 @@ State locking
 Versioning
 Backup
 
+**for_each loop**: In Terraform, a for_each loop is a powerful construct used to create multiple instances of a resource, module, or inline block based on a map or set of strings. It allows you to dynamically create infrastructure components without repeating the same block multiple times.
+
 
 
