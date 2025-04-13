@@ -60,6 +60,7 @@ In Terraform, a dynamic block is used to dynamically generate nested blocks with
 
 **What is a dynamic block?**
 Terraform resources often include nested blocks (like ingress, egress, tag, etc.). When the number or structure of those blocks is not static, you can use a dynamic block to loop through a list or map and generate them.
+
 **Notes**
 You can't use dynamic to generate top-level resources — only nested blocks inside a resource.
 
