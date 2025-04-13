@@ -67,6 +67,7 @@ You can't use dynamic to generate top-level resources — only nested blocks ins
 Use it when the structure or count of nested blocks is data-driven.
 
 Keep code readable — overusing dynamic blocks for very simple cases can hurt clarity.
+
 **Provisioners** : In Terraform, provisioners are used to execute scripts or commands on a local or remote machine after a resource is created or destroyed. They’re often used to do tasks like bootstrapping servers, installing software, or running configuration scripts that Terraform itself doesn’t manage.
 
 **🧠 What are Provisioners?**
